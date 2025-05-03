@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for the Next Educational Resource</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .website-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .website-row:last-child {
+            border-bottom: none;
+        }
+        .website-url {
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .vote-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from the link */
+        }
+        .vote-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vote for the Next Educational Resource</h1>
+        <div class="website-row">
+            <span>Your Website URL:</span>
+            <a href="https://www.yourwebsite.com" class="website-url">www.yourwebsite.com</a>
+        </div>
+        <div class="website-row">
+            <span>Vote for Educational Resource:</span>
+            <a href="https://www.example.com/vote" class="vote-button">Vote Now</a>
+        </div>
+    </div>
+</body>
+</html>
